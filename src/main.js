@@ -16,6 +16,7 @@ function dataPeru() {
         container.appendChild(nameIndicatorPer);
         document.getElementById("root").appendChild(container).innerHTML;
     }
+
 }
 
 let mexico = Object.values(data1.MEX.indicators);
@@ -73,4 +74,14 @@ function dataChile() {
         document.getElementById("root").appendChild(container).innerHTML;
     }
 }
+//select para filtrar y ordenarindicadores
+selectedData.indicators = window.data.orderIndicators(selectedData.indicators);
 
+// For para recorrer la lista de indicadores y mostrarlos en el select
+for (let i = 0; i < selectedData.indicators.length; i++) {
+    let indicatorList = document.getElementById("indicatorsSelect");
+    let option = document.createElement("option");
+    option.value = i;
+    option.text = selectedData.indicators[i].indicatorName;
+    indicatorList.add(option);
+}

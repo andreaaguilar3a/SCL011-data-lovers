@@ -1,5 +1,89 @@
 # **Data Lovers**
 
+
+
+# Definición del Proyecto DATA LATAM 
+
+**DATA LATAM** presenta los datos más actuales y precisos disponibles sobre el desarrollo mundial e incluye estimaciones nacionales e internacionales, basándose en el ámbito de fuerza laboral, desempleo, nivel de educación o instrucción e inscripción escolar e igualdad de género.
+
+El  trabajo corresponde a una iteración del proyecto data lovers, comenzando un nuevo proyecto a partir de la data disponible del [Banco Mundial](http://www.bancomundial.org/). Para que esa gran cantidad de información contenida sea atractiva y utilizable por los usuarios, se propone filtrarla de acuerdo a 138 indicadores, mostrando como resultado un gráfico de lineas comparativo entre los países Brasil, Chile, México y Perú; resultando de manera amigable para quienes visiten esta aplicación web.
+
+## DEFINICIÓN DEL PRODUCTO:
+
+**Explorador de datos sobre mujeres** es una web informativa que permite recopilar estadísticas sobre las condiciones: sociales, familiares, económicas, demográficas, de igualdad, entre otras, de las mujeres de México, Perú, Chile y Brasil.  
+También pueden compararse datos de ambos sexos, por lo que se incluyen estadísticas sobre los hombres.
+
+No obstante, los datos por sí mismos son de poca utilidad. Para que esas grandes cantidades de datos se conviertan en **información** fácil de leer para los usuarios, necesitamos entender y procesar estos datos.
+
+**DATA LATAM** es una herramienta de análisis que contiene colecciones de indicadores del desarrollo del Banco Mundial, compilados a partir de fuentes internacionales reconocidas oficialmente. Una manera simple de
+hacerlo es creando _interfaces_ y _visualizaciones_.
+
+
+# Diseño de la Interfaz de Usuario
+Proceso de diseño
+
+Para diseñar este producto tecnológico lo primero que se hizo fue estudiar la data ofrecida, se seleccionó la data del banco mundial,una vez seleccionada la data, se procedió a realizar un prototipo de baja fidelidad (ver imagen 1), donde se le mostró las pantallas (en lápiz y papel) de lo que se consideraban eran sus necesidades, aquí surgen las primeras historias de usuarios, que luego de una selección de acuerdo al alcance de la data surgen las historias de usuario finales.
+
+## El problema:
+
+Al examinar un archivo con datos del Banco Munidal, apareció la interrogante de como mostrar dichos datos de manera amigable a los usuarios. Y lograr que cualquier persona, sin importar cual sea su interés, pudiera encontrar estos archivos organizados, y representados gráficamente.
+
+Para empezar el proceso de investigación lo primero que realizamos fue una encuesta para ver que tan empapado en el tema estaban nuestros posibles usuarios, así como saber su interés en estos temas y como pensaban ellos que debía ser la mejor manera para mostrar los resultados de estos exhaustivos estudios realizados por el Banco Mundial.
+
+Solución de problemas:
+
+Esta página web le muestra al usuario información de valor sobre ciertos indicadores e información que el/ella solicita, de esta forma podrá tomar decisiones para invertir o crear servicios según las necesidades que vea a través de analizar la data mostrada.
+## Prototipo de baja fidelidad
+
+A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
+
+![Baja Fidelidad pantalla 1](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Baja_Fidelidad_1.jpg?raw=true)
+
+## Planificación y programación del desarrollo (Trello)
+
+Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
+
+[Trello Proyecto Social Data](https://trello.com/b/7BWVN9vA/proyecto-data-lovers-banco-mundial)
+
+![Trello Social Data](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Trello_Social_Data.PNG?raw=true)
+
+# Historias de usuario
+Entrevistamos a 5 personas, el resultado fue:
+
+## Usuario Nº1
+Como empresaria y entusiasta en temas de género, quiero poder acceder a información por país, relacionada con indicadores de desarrollo asociados con las mujeres en América Latina, de los ámbitos: educativo, laboral y demográfico. Para poder tomar decisiones informadas sobre mis áreas de interés en la región.
+
+
+**Criterios de aceptación:**
+
+Dentro de la página se permite al usuario elegir entre un país u otro, para mostrar únicamente la data de su interés.
+
+### Decisiones de diseño:
+
+Una vez realizadas las encuestas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
+
+A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos. 
+Los resultados obtenidos son:
+
+## Prototipo de alta fidelidad
+
+Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable.
+El resultado del diseño en Figma fue:
+
+![Alta fidelidad página 1](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Alta_Fidelidad_1.PNG?raw=true)
+
+
+### Definición: ¿Quién es nuestro usuario? 
+
+Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 30 años. Principalmente las relacionadas con intereses en negocios, economía, estudios sobre desigualdad laboral y de genero,por ello algunas de nuestras entrevistadas son empresarias, reclutadoras de personal , inversionistas y estudiantes de economía y negocios.
+
+### Conclusión:
+El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesionales en el área de Economía y Desarrollo Social, que deseen encontrar análisis, a través de resultados que no son cuantificables, de manera de detectar y comparar las necesidades en la Sociedad, contribuyendo así, en el diseño y aplicación de estadísticas, en materia de desarrollo social, especialmente aquellas destinadas a erradicar la desigualdad laboral/económica y brindar protección a las personas o grupos vulnerables, promoviendo la movilidad e integración.
+
+
+
+
+
 ## **Índice**
 
 * [Preámbulo](#preámbulo)
