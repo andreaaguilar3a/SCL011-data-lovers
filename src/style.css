@@ -1,11 +1,28 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #dffff5;
     font-family: 'Lato', sans-serif;
+    }
+.container {
+    float: center;
 }
-.Rectangle-2 {
-    width: 1440px;
-    height: 250px;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 69%, #ffffff), linear-gradient(to bottom, #a7ffeb, #a7ffeb);
+.menu {
+    float: right;
+    background-color: #dffff5
+    
+}
+.logo {
+        float: left;
+      }
+.header {
+    display: flex;
+    width: 1920px;
+    height: 150px;
+    text-align: left;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #dffff5), linear-gradient(to top, #77eded, #77eded);
+}
+.subtitlle {
+    float: left;
+
 }
 h1{
     font-family: 'Lato', sans-serif;
@@ -19,15 +36,53 @@ h2{
     color: #002019;
     text-align: left;
 }
-.country {
-    background-color: #75ccb9;
-    color: #002019;
-    border: 2px solid #75ccb9;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 30px;
+button{ 
+    position: relative;
     width: 100px;
-    height: 50px;
-    padding: 1px 5px;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.chileFlag{
+    background-image:url(image/chile-flagSMALL.jpg);
+    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 45px;
+    background-position:center;
+}
+.peruFlag{
+    background-image:url(image/peru-flagSMALL.jpg);
+    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 45px;
+    background-position:center;}
+    
+.brasilFlag{
+    background-image:url(image/brasil-flagSMALL.jpg);
+    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 45px;
+    background-position:center;
+}
+.mexicoFlag{
+    background-image:url(image/mexico-flagSMALL.jpg);
+    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 45px;
+    background-position:center;
+}
+.styleSelect{
+    background-color:#77eded;
+    font-family: 'Lato', sans-serif;
+    color: #002019;
+    font-size:15px;
+    border: none;
+    width:200px;
+    height:35px;
 }
