@@ -37,15 +37,16 @@ Esta página web le muestra al usuario información de valor sobre ciertos indic
 
 A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
 
-![Baja Fidelidad pantalla 1](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Baja_Fidelidad_1.jpg?raw=true)
+![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_1.jpg?raw=true)
 
+![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_2.jpg?raw=true)
 ## Planificación y programación del desarrollo (Trello)
 
 Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
 
 [Trello Proyecto Social Data](https://trello.com/b/7BWVN9vA/proyecto-data-lovers-banco-mundial)
 
-![Trello Social Data](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Trello_Social_Data.PNG?raw=true)
+![Trello Social Data](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Trello_Social_Data.PNG?raw=true)
 
 # Historias de usuario
 Entrevistamos a 5 personas, el resultado fue:

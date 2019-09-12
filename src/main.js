@@ -85,3 +85,12 @@ for (let i = 0; i < selectedData.indicators.length; i++) {
     option.text = selectedData.indicators[i].indicatorName;
     indicatorList.add(option);
 }
+
+
+//function selectf(){
+    //var array = [];
+    //var dataw = document.getElementById("provincia");
+    //for(var i=0;i<array.length;i++){ 
+       // dataw.options[i] = new option(array[i]);
+     //}
+}
