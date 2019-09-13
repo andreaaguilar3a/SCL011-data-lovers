@@ -33,20 +33,10 @@ Para empezar el proceso de investigación lo primero que realizamos fue una encu
 Solución de problemas:
 
 Esta página web le muestra al usuario información de valor sobre ciertos indicadores e información que el/ella solicita, de esta forma podrá tomar decisiones para invertir o crear servicios según las necesidades que vea a través de analizar la data mostrada.
-## Prototipo de baja fidelidad
 
-A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
+### Decisiones de diseño:
 
-![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_1.jpg?raw=true)
-
-![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_2.jpg?raw=true)
-## Planificación y programación del desarrollo (Trello)
-
-Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
-
-[Trello Proyecto Social Data](https://trello.com/b/7BWVN9vA/proyecto-data-lovers-banco-mundial)
-
-![Trello Social Data](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Trello_Social_Data.PNG?raw=true)
+Una vez realizadas las enntrevistas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
 
 # Historias de usuario
 Entrevistamos a 5 personas, el resultado fue:
@@ -59,19 +49,53 @@ Como empresaria y entusiasta en temas de género, quiero poder acceder a informa
 
 Dentro de la página se permite al usuario elegir entre un país u otro, para mostrar únicamente la data de su interés.
 
-### Decisiones de diseño:
 
-Una vez realizadas las encuestas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
-
-A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos. 
 Los resultados obtenidos son:
+
+
+## Iteraciones
+Luego de varias iteraciones del control de flujo, feedback con nuestras compañeras y encuestas, llegamos a un flujo más sencillo. Donde basadas en las necesidades de nuestros usuarios se le permite filtrar al usuario por país, posteriormente seleccionar un indicador. y al final obtener una data que se muestra de manera gráfica y mediante cuadros de datos.
+![Segunda iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
+
+
+## Prototipo de baja fidelidad
+
+A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
+
+![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_1.jpg?raw=true)
+
+![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_2.jpg?raw=true)
+
+
+## Planificación y programación del desarrollo (Trello)
+
+Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
+
+[Trello Proyecto Social DataLatam](https://trello.com/b/w6VL7xVk/data-lovers-datalatam)
+
+![Trello Social DataLatam](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Trello_Social_DataLatam.PNG?raw=true)
+
 
 ## Prototipo de alta fidelidad
 
 Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable.
 El resultado del diseño en Figma fue:
 
-![Alta fidelidad página 1](https://github.com/adrievelyn/SCL010-data-lovers/blob/gh-pages/src/images/Readme_images/Alta_Fidelidad_1.PNG?raw=true)
+
+![Alta fidelidad](https://www.figma.com/file/QTiRQiA5AOIPwisWJ4CW9e/DataLovers?node-id=0%3A1)
+
+![Alta fidelidad página 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP1?raw=true)
+
+![Alta fidelidad página 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP2?raw=true)
+
+![Alta fidelidad página 3](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP3?raw=true)
+
+
+### Responsive para móvil
+
+
+![Alta fidelidad para movil](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFmovil?raw=true)
+
 
 
 ### Definición: ¿Quién es nuestro usuario? 
@@ -81,6 +105,7 @@ Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 30 años. Prin
 ### Conclusión:
 El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesionales en el área de Economía y Desarrollo Social, que deseen encontrar análisis, a través de resultados que no son cuantificables, de manera de detectar y comparar las necesidades en la Sociedad, contribuyendo así, en el diseño y aplicación de estadísticas, en materia de desarrollo social, especialmente aquellas destinadas a erradicar la desigualdad laboral/económica y brindar protección a las personas o grupos vulnerables, promoviendo la movilidad e integración.
 
+A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos. 
 
 
 
