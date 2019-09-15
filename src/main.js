@@ -1,165 +1,112 @@
-const data1 = window.WORLDBANK;
-
 const data = window.WORLDBANK;
-var datapais;
+let dataCountry;
+let selectEMP = document.getElementById("empF");
+let selectED = document.getElementById("edF");
 
+//Si el botón presionado es 'CHILE', guardará en dataCountry la data de Chile
 const chileButton = document.getElementById("buttonChl");
 chileButton.addEventListener("click", () => {
+    hideDiv();
     showDiv();
-    datapais = data.CHL;
+    dataCountry = data.CHL;
 });
 
+//Si el botón presionado es 'PERÚ', guardará en dataCountry la data de Perú
 const peruButton = document.getElementById("buttonPer");
 peruButton.addEventListener("click", () => {
+    hideDiv();
     showDiv();
-    datapais = data.PER;
+    dataCountry = data.PER;
 });
 
+//Si el botón presionado es 'BRASIL', guardará en dataCountry la data de Brasil
 const brazilButton = document.getElementById("buttonBra");
 brazilButton.addEventListener("click", () => {
+    hideDiv();
     showDiv();
-    datapais = data.BRA;
+    dataCountry = data.BRA;
 });
 
+//Si el botón presionado es 'MÉXICO', guardará en dataCountry la data de México
 const mexicoButton = document.getElementById("buttonMex");
 mexicoButton.addEventListener("click", () => {
+    hideDiv();
     showDiv();
-    datapais = data.MEX;
+    dataCountry = data.MEX;
 });
 
-const empButton = document.getElementById("buttonEMP");
-empButton.addEventListener("click", () => {
-
-    document.getElementById("root").innerHTML = "";
-    let pais = Object.values(datapais.indicators);
-    let select = document.getElementById("empF");
-    let arrayPais = [];
-
-    for (let i = 0; i < pais.length; i++) {
-        arrayPais[i] = filterEMP(datapais, i);
-        if(filterEMP(datapais, i)){
-            select.options[select.options.length] = new Option(arrayPais[i], i);
-        }
-    }
-
-    if (select.style.visibility === "hidden") {
-        select.style.visibility = "";
-    } else {
-        select.style.visibility = "hidden";
-    }
-
-});
-
-const edButton = document.getElementById("buttonED");
-edButton.addEventListener("click", () => {
-
-    document.getElementById("root").innerHTML = "";
-    let pais = Object.values(datapais.indicators);
-    let select = document.getElementById("empF");
-    let arrayPais = [];
-
-    for (let i = 0; i < pais.length; i++) {
-        arrayPais[i] = filterED(datapais, i);
-        if(filterED(datapais, i)){
-            select.options[select.options.length] = new Option(arrayPais[i], i);
-        }
-    }
-
-    if (select.style.visibility === "hidden") {
-        select.style.visibility = "";
-    } else {
-        select.style.visibility = "hidden";
-    }
-
-});
-
+//Función que muestra los botones para el filtrado por empleabilidad y educación
 function showDiv() {
     document.getElementById("buttonEMP").style.visibility = "";
     document.getElementById("buttonED").style.visibility = "";
 }
 
+//Función que esconde los select de cada filtro
 function hideDiv() {
-    document.getElementById("buttonEMP").style.visibility = "hidden";
-    document.getElementById("buttonED").style.visibility = "hidden";
+    document.getElementById("empF").style.visibility = "hidden";
+    document.getElementById("edF").style.visibility = "hidden";
 }
 
+//EMPLEABILIDAD SEGÚN PAIS
 
-/*const containerRoot = document.getElementById("root");
-const selectCountries = document.getElementById("countries");
+const empButton = document.getElementById("buttonEMP");
+empButton.addEventListener("click", () => {
 
-// FILTRO DOM
-selectCountries.addEventListener("change", () => {
-
-    let condition = selectCountries.options(selectCountries.selectedIndex).text;
-    console.log(condition)
-})
-
-//INICIO BOTÓN CHILE
-
-const chileButton = document.getElementById("buttonChl");
-chileButton.addEventListener("click", () => {
     document.getElementById("root").innerHTML = "";
-    let chile = Object.values(data.PER.indicators);
-    let select = document.getElementById("selectChilean");
-    let arrayChile = [];
+    let countryIndicator = Object.values(dataCountry.indicators);
+    let arrayCountry = [];
 
-    for (let i = 0; i < chile.length; i++) {
-        arrayChile[i] = chile[i].indicatorName;
-        select.options[select.options.length] = new Option(arrayChile[i], i);
+    //Verifica que el select no esté vacío, si no lo está borrará las opciones
+    //Así evitará que al presionar dos veces el botón se dupliquen las opciones
+    if (selectEMP.length!=0) {
+        for (let i = 0; i < selectEMP.length; i++) {
+            selectEMP.innerHTML = "";
+        }
     }
 
-    select.style.visibility = "";
-});
-//FIN BOTÓN CHILE
-
-//INICIO BOTÓN PERU
-const peruButton = document.getElementById("buttonPer");
-peruButton.addEventListener("click", () => {
-    document.getElementById("root").innerHTML = "";
-    let peru = Object.values(data.PER.indicators);
-    let select = document.getElementById("selectPerubian");
-    let arrayPeru = [];
-
-    for (let i = 0; i < peru.length; i++) {
-        arrayPeru[i] = peru[i].indicatorName;
-        select.options[select.options.length] = new Option(arrayPeru[i], i);
+    for (let i = 0; i < countryIndicator.length; i++) {
+        //El array va guardando lo que retorne el filtro de empleabilidad
+        arrayCountry[i] = filterEMP(dataCountry, i);
+        //Si el filtro retorna datos entonces añade la opción al select
+        //Esto es para evitar que deje espacios vacíos en el select y solo muestre los datos filtrados
+        if (filterEMP(dataCountry, i)) {
+            selectEMP.options[selectEMP.options.length] = new Option(arrayCountry[i], i);
+        }
     }
 
-    select.style.visibility = "";
+    //Muestra el select de empleabilidad y esconde el de educación
+    selectEMP.style.visibility = "";
+    selectED.style.visibility = "hidden";
 });
-//FIN BOTÓN PERU
 
-//INICIO BOTÓN BRASIL
-const brazilButton = document.getElementById("buttonBra");
-brazilButton.addEventListener("click", () => {
+//EDUCACIÓN SEGÚN PAIS
+
+const edButton = document.getElementById("buttonED");
+edButton.addEventListener("click", () => {
+
     document.getElementById("root").innerHTML = "";
-    let brazil = Object.values(data.BRA.indicators);
-    let select = document.getElementById("selectBrazilian");
-    let arrayBrazil = [];
+    let countryIndicator = Object.values(dataCountry.indicators);
+    let arrayCountry = [];
 
-    for (let i = 0; i < brazil.length; i++) {
-        arrayBrazil[i] = brazil[i].indicatorName;
-        select.options[select.options.length] = new Option(arrayBrazil[i], i);
+    //Verifica que el select no esté vacío, si no lo está borrará las opciones
+    //Así evitará que al presionar dos veces el botón se dupliquen las opciones
+    if (selectED.length!=0) {
+        for (let i = 0; i < selectED.length; i++) {
+            selectED.innerHTML = "";
+        }
     }
 
-    select.style.visibility = "";
-});
-//FIN BOTÓN BRASIL
-
-//INICIO BOTÓN MÉXICO
-const mexicoButton = document.getElementById("buttonMex");
-mexicoButton.addEventListener("click", () => {
-    document.getElementById("root").innerHTML = "";
-    let mexico = Object.values(data.MEX.indicators);
-    let select = document.getElementById("selectMexican");
-    let arrayMexico = [];
-
-    for (let i = 0; i < mexico.length; i++) {
-        arrayMexico[i] = mexico[i].indicatorName;
-        select.options[select.options.length] = new Option(arrayMexico[i], i);
+    for (let i = 0; i < countryIndicator.length; i++) {
+        //El array va guardando lo que retorne el filtro de educación
+        arrayCountry[i] = filterED(dataCountry, i);
+        //Si el filtro retorna datos entonces añade la opción al select
+        //Esto es para evitar que deje espacios vacíos en el select y solo muestre los datos filtrados
+        if (filterED(dataCountry, i)) {
+            selectED.options[selectED.options.length] = new Option(arrayCountry[i], i);
+        }
     }
 
-    select.style.visibility = "";
+    //Muestra el select de educación y esconde el de empleabilidad
+    selectED.style.visibility = "";
+    selectEMP.style.visibility = "hidden";
 });
-//FIN BOTÓN MÉXICO
-*/

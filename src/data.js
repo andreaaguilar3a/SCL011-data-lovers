@@ -1,46 +1,23 @@
 window.WORLDBANK;
 
+//Filtro para empleabilidad, recibe la data del país seleccionado e índice
 filterEMP = (data, i) => {
-    var dataPais = Object.values(data.indicators);
+    let dataCountry = Object.values(data.indicators);
     
-        if (dataPais[i].indicatorCode.includes(".FE.") && dataPais[i].indicatorCode.includes(".EMP.")){
-            var nameOption = dataPais[i].indicatorName;
+        //Realiza el filtro por género y por empleabilidad, retorna el valor de cada opción del select
+        if (dataCountry[i].indicatorCode.includes(".FE.") && dataCountry[i].indicatorCode.includes(".EMP.")){
+            let nameOption = dataCountry[i].indicatorName;
             return nameOption;
         }
 }
 
+//Filtro para educación, recibe la data del país seleccionado e índice
 filterED = (data, i) => {
-    var dataPais = Object.values(data.indicators);
+    let dataCountry = Object.values(data.indicators);
     
-        if (dataPais[i].indicatorCode.includes(".FE.") && dataPais[i].indicatorName.includes("educación")){
-            var nameOption = dataPais[i].indicatorName;
+        //Realiza el filtro por género y por educación, retorna el valor de cada opción del select
+        if (dataCountry[i].indicatorCode.includes(".FE.") && dataCountry[i].indicatorName.includes("educación")){
+            let nameOption = dataCountry[i].indicatorName;
             return nameOption;
         }
 }
-
-
-/* otro filtro
-
-filterFem = (filteredData, WORLDBANK, selectCountries) => { 
-    filteredData=filterCountries(WORLDBANK, selectCountries);
-    const resultFilterFemale = WORLDBANK.filterFem(element => {
-        return element.countries === selectCountries;
-    });
-    return resultFilterCountries;
-
-}
-window.filter.filterCountries = filterCountries;
-
-
-*/
-
-
-
-/*filterData: (data) => {
-    for (i = 0; i < data.indicators.length; i++) {
-    let country = data.indicators[i];
-    if (country.indicatorCode.includes(".FE.")) {
-        console.log(".FE");
-    }
-}
-}*/

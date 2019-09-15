@@ -16,17 +16,18 @@
 
         <div id="page" class="round">
 
-            <div id="splash">
+            <div id="header.image">
                 <img src="image/headerDATALATAM.jpg" alt="" class="round" />
             </div>
 
             <div id="menu" class="round">
                 <ul>
                     <li><a href="#" title="" class="round active">HOME</a></li>
-                    <li><a href="#" title="" class="round">NOSOTROS</a></li>
+                    <li><a href="#" title="" class="round">CONTACTO</a></li>
                 </ul>
             </div>
             <div class="containerButton">
+                   <p>Selecciona un país para ver los datos</p>
                 <div class="button">
                     <button class="flag" value="CHL" label="Chile" id="buttonChl"></button>
                     <button class="flag" value="PER" label="Peru" id="buttonPer"></button>
@@ -34,43 +35,24 @@
                     <button class="flag" value="MEX" label="Mexico" id="buttonMex"></button>
                 </div>
 
-                <div class="button2">
+                <div class="buttonFilter">
                     <button style="visibility:hidden" class="filter" value="EMP" label="Empleabilidad"
                         id="buttonEMP">Empleabilidad</button>
                     <button style="visibility:hidden" class="filter" value="ED" label="Educacion"
                         id="buttonED">Educación</button>
                 </div>
 
-                <div class="selectCountries">
-                    <select class="styleSelect" style="visibility:hidden" name="empF" id="empF"></select>
-                    <select class="styleSelect" style="visibility:hidden" name="edF" id="edF"></select>
+                <div class="selectFilter">
+                    <div class="form-group col-lg-6">
+                        <select class="styleSelectEMP" style="visibility:hidden" name="empF" id="empF"></select>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <select class="styleSelectED" style="visibility:hidden" name="edF" id="edF"></select>
+                    </div>
                 </div>
-                <!--<div class="selectCountries">
-                    <div class="selectChile">
-                        <select class="styleSelect" style="visibility:hidden" name="countryChl"
-                            id="selectChilean"></select>
-                    </div>
-                    <div class="selectPeru">
-                        <select class="styleSelect" style="visibility:hidden" name="countryPer"
-                            id="selectPerubian"></select>
-                    </div>
-                    <div class="selectBrazil">
-                        <select class="styleSelect" style="visibility:hidden" name="countryBra"
-                            id="selectBrazilian"></select>
-                    </div>
-                    <div class="selectMexico">
-                        <select class="styleSelect" style="visibility:hidden" name="countryMex"
-                            id="selectMexican"></select>
-                    </div>
-                </div> -->
             </div>
 
-
-
-
         </div>
-
-
 
         <div id="root"></div>
         <!-- <script src="./data/injuries/injuries.js"></script> -->
@@ -84,6 +66,7 @@
         <script src="main.js"></script>
 
     </div>
+   
 </body>
 <div id="footer">
     <p>Organismo sin fines de lucro creado en 2019 que esta
