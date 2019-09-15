@@ -1,88 +1,146 @@
+
 body {
-    background-color: #dffff5;
-    font-family: 'Lato', sans-serif;
-    }
-.container {
-    float: center;
+	margin: 0px;
+	padding: 0px;
+    background: #ebfbfd;
+    background-image: url(./image/bg.jpg);
+    background-repeat: repeat-x;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #494949;
+	line-height: 200%;
 }
-.menu {
+
+h1, h2, h3 {
+	margin: 0;
+	color: #002019
+}
+
+p, ol, ul {
+	list-style: none;
+}
+
+a {
+	color: #002019;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+}
+
+/* Logo */
+
+#logo {
+	margin: 0;
+	padding: 25px 15px;
+	height: 30px;
+}
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	padding: 10px;
+	width: 960px;
+	background: #FFF;
+}
+/* Menu */
+
+#menu {
+	margin: 10px auto;
+	padding: 0;
+    height: 65px;
     float: right;
-    background-color: #dffff5
-    
-}
-.logo {
-        float: left;
-      }
-.header {
-    display: flex;
-    width: 1920px;
-    height: 150px;
-    text-align: left;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #dffff5), linear-gradient(to top, #77eded, #77eded);
-}
-.subtitlle {
-    float: left;
 
 }
-h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 15x;
-    color: #002019;
-    text-align: left;
+#menu li{
+	display: inline;
+	margin: 0 20px;
+	padding: 0;
 }
-h2{
-   font-family: 'Lato', sans-serif;
-    font-size: 10x;
-    color: #002019;
-    text-align: left;
+#menu li a {
+	padding: 2px 4px;
+	font-size: 18px;
+	color: #002019;
+	text-decoration: none;
 }
-button{ 
-    position: relative;
+/* Content */
+
+#content {
+    float: left;
+	width: 560px;
+	margin: 10px 0;
+	padding: 10px;
+	background: #FFF;
+	text-align: justify;
+
+}
+.containerButton{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 5%;
+}
+.button{ 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 45px;
+    margin: 10%;
+    margin-left: 34%;
+}
+.button2{ 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    width: 75%;
+    height: 45px;
+    margin-left: 34%;
+}
+.flag{
+    background-repeat:no-repeat;
     width: 100px;
     height: 45px;
-    margin: 0 auto;
+    background-position:center;
     border-radius: 30px;
     border: none;
     cursor: pointer;
 }
-.chileFlag{
-    background-image:url(image/chile-flagSMALL.jpg);
-    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
-    background-repeat:no-repeat;
-    width: 100px;
-    height: 45px;
-    background-position:center;
+#buttonChl{
+    background-image: url(image/chile-flagSMALL.jpg);
 }
-.peruFlag{
-    background-image:url(image/peru-flagSMALL.jpg);
-    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
-    background-repeat:no-repeat;
-    width: 100px;
-    height: 45px;
-    background-position:center;}
-    
-.brasilFlag{
-    background-image:url(image/brasil-flagSMALL.jpg);
-    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
-    background-repeat:no-repeat;
-    width: 100px;
-    height: 45px;
-    background-position:center;
+#buttonPer{
+    background-image: url(image/peru-flagSMALL.jpg);
 }
-.mexicoFlag{
-    background-image:url(image/mexico-flagSMALL.jpg);
-    box-shadow: 0px 5px 10px rgba(2, 2, 2, 0.7);
-    background-repeat:no-repeat;
-    width: 100px;
-    height: 45px;
-    background-position:center;
+#buttonBra{
+    background-image: url(image/brasil-flagSMALL.jpg);
 }
+#buttonMex{
+    background-image: url(image/mexico-flagSMALL.jpg);
+}
+
 .styleSelect{
+    appearance: none;
     background-color:#77eded;
     font-family: 'Lato', sans-serif;
     color: #002019;
-    font-size:15px;
+    font-size: 15px;
     border: none;
-    width:200px;
-    height:35px;
+    width: 75%;
+    height: 45px;
+    margin-left: 34%;
+}
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+    width: 980px;
+    background: #002019 url(image/bg.jpg) repeat-x left bottom;
+    text-align: center;
 }

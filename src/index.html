@@ -10,52 +10,86 @@
 
 <body>
     <div class="container">
-        <div class="header">
-            <h3>Empleo Mujeres.
-                Data de empleabilidad de la mujer en Latinoamerica</h>
+        <div id="logo">
+            <h1></h1>
         </div>
-        <div class="menu">
-            <nav>
-                <a href="#">HOME</a> | <a href="#">CONTACT</a>
-            </nav>
+
+        <div id="page" class="round">
+
+            <div id="splash">
+                <img src="image/headerDATALATAM.jpg" alt="" class="round" />
+            </div>
+
+            <div id="menu" class="round">
+                <ul>
+                    <li><a href="#" title="" class="round active">HOME</a></li>
+                    <li><a href="#" title="" class="round">NOSOTROS</a></li>
+                </ul>
+            </div>
+            <div class="containerButton">
+                <div class="button">
+                    <button class="flag" value="CHL" label="Chile" id="buttonChl"></button>
+                    <button class="flag" value="PER" label="Peru" id="buttonPer"></button>
+                    <button class="flag" value="BRA" label="Brazil" id="buttonBra"></button>
+                    <button class="flag" value="MEX" label="Mexico" id="buttonMex"></button>
+                </div>
+
+                <div class="button2">
+                    <button style="visibility:hidden" class="filter" value="EMP" label="Empleabilidad"
+                        id="buttonEMP">Empleabilidad</button>
+                    <button style="visibility:hidden" class="filter" value="ED" label="Educacion"
+                        id="buttonED">Educación</button>
+                </div>
+
+                <div class="selectCountries">
+                    <select class="styleSelect" style="visibility:hidden" name="empF" id="empF"></select>
+                    <select class="styleSelect" style="visibility:hidden" name="edF" id="edF"></select>
+                </div>
+                <!--<div class="selectCountries">
+                    <div class="selectChile">
+                        <select class="styleSelect" style="visibility:hidden" name="countryChl"
+                            id="selectChilean"></select>
+                    </div>
+                    <div class="selectPeru">
+                        <select class="styleSelect" style="visibility:hidden" name="countryPer"
+                            id="selectPerubian"></select>
+                    </div>
+                    <div class="selectBrazil">
+                        <select class="styleSelect" style="visibility:hidden" name="countryBra"
+                            id="selectBrazilian"></select>
+                    </div>
+                    <div class="selectMexico">
+                        <select class="styleSelect" style="visibility:hidden" name="countryMex"
+                            id="selectMexican"></select>
+                    </div>
+                </div> -->
+            </div>
+
+
+
+
         </div>
 
 
-        <div class="button">
-            <button class="chileFlag" value="CHL" label="Chile" id="buttonChl"></button>
-            <button class="peruFlag" value="PER" label="Peru" id="buttonPer"></button>
-            <button class="brasilFlag" value="BRA" label="Brazil" id="buttonBra"></button>
-            <button class="mexicoFlag" value="MEX" label="Mexico" id="buttonMex"></button>
-        </div>
 
-        <div class="selectChile">
-            <select class="styleSelect" style="visibility:hidden" name="countryChl" id="selectChilean"></select>
-        </div>
-        <div class="selectPeru">
-            <select class="styleSelect" style="visibility:hidden" name="countryPer" id="selectPerubian"></select>
-        </div>
-        <div class="selectBrazil">
-            <select class="styleSelect" style="visibility:hidden" name="countryBra" id="selectBrazilian"></select>
-        </div>
-        <div class="selectMexico">
-            <select class="styleSelect" style="visibility:hidden" name="countryMex" id="selectMexican"></select>
-        </div>
+        <div id="root"></div>
+        <!-- <script src="./data/injuries/injuries.js"></script> -->
+        <!-- <script src="./data/pokemon/pokemon.js"></script> -->
+        <!-- <script src="./data/steam/steam.js"></script> -->
+        <script src="./data/worldbank/worldbank.js"></script>
+        <!-- <script src="./data/lol/lol.js"></script> -->
+        <!-- <script src="./data/patient/patient.js"></script> -->
+        <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+
     </div>
-
-
-
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <script src="./data/worldbank/worldbank.js"></script>
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <!-- <script src="./data/patient/patient.js"></script> -->
-    <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-
-
 </body>
+<div id="footer">
+    <p>Organismo sin fines de lucro creado en 2019 que esta
+        orientado a entregar datos de empleabilidad a emprendedoras
+        y microempresarias interesadas en dar trabajo a mujeres</p>
+
+</div>
 
 </html>

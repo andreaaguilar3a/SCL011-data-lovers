@@ -1,10 +1,105 @@
+const data1 = window.WORLDBANK;
+
 const data = window.WORLDBANK;
+var datapais;
+
+const chileButton = document.getElementById("buttonChl");
+chileButton.addEventListener("click", () => {
+    showDiv();
+    datapais = data.CHL;
+});
+
+const peruButton = document.getElementById("buttonPer");
+peruButton.addEventListener("click", () => {
+    showDiv();
+    datapais = data.PER;
+});
+
+const brazilButton = document.getElementById("buttonBra");
+brazilButton.addEventListener("click", () => {
+    showDiv();
+    datapais = data.BRA;
+});
+
+const mexicoButton = document.getElementById("buttonMex");
+mexicoButton.addEventListener("click", () => {
+    showDiv();
+    datapais = data.MEX;
+});
+
+const empButton = document.getElementById("buttonEMP");
+empButton.addEventListener("click", () => {
+
+    document.getElementById("root").innerHTML = "";
+    let pais = Object.values(datapais.indicators);
+    let select = document.getElementById("empF");
+    let arrayPais = [];
+
+    for (let i = 0; i < pais.length; i++) {
+        arrayPais[i] = filterEMP(datapais, i);
+        if(filterEMP(datapais, i)){
+            select.options[select.options.length] = new Option(arrayPais[i], i);
+        }
+    }
+
+    if (select.style.visibility === "hidden") {
+        select.style.visibility = "";
+    } else {
+        select.style.visibility = "hidden";
+    }
+
+});
+
+const edButton = document.getElementById("buttonED");
+edButton.addEventListener("click", () => {
+
+    document.getElementById("root").innerHTML = "";
+    let pais = Object.values(datapais.indicators);
+    let select = document.getElementById("empF");
+    let arrayPais = [];
+
+    for (let i = 0; i < pais.length; i++) {
+        arrayPais[i] = filterED(datapais, i);
+        if(filterED(datapais, i)){
+            select.options[select.options.length] = new Option(arrayPais[i], i);
+        }
+    }
+
+    if (select.style.visibility === "hidden") {
+        select.style.visibility = "";
+    } else {
+        select.style.visibility = "hidden";
+    }
+
+});
+
+function showDiv() {
+    document.getElementById("buttonEMP").style.visibility = "";
+    document.getElementById("buttonED").style.visibility = "";
+}
+
+function hideDiv() {
+    document.getElementById("buttonEMP").style.visibility = "hidden";
+    document.getElementById("buttonED").style.visibility = "hidden";
+}
+
+
+/*const containerRoot = document.getElementById("root");
+const selectCountries = document.getElementById("countries");
+
+// FILTRO DOM
+selectCountries.addEventListener("change", () => {
+
+    let condition = selectCountries.options(selectCountries.selectedIndex).text;
+    console.log(condition)
+})
 
 //INICIO BOTÓN CHILE
+
 const chileButton = document.getElementById("buttonChl");
 chileButton.addEventListener("click", () => {
     document.getElementById("root").innerHTML = "";
-    let chile = Object.values(data.CHL.indicators);
+    let chile = Object.values(data.PER.indicators);
     let select = document.getElementById("selectChilean");
     let arrayChile = [];
 
@@ -67,3 +162,4 @@ mexicoButton.addEventListener("click", () => {
     select.style.visibility = "";
 });
 //FIN BOTÓN MÉXICO
+*/
