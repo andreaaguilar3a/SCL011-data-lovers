@@ -58,7 +58,7 @@ empButton.addEventListener("click", () => {
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectEMP.length!=0) {
+    if (selectEMP.length != 0) {
         for (let i = 0; i < selectEMP.length; i++) {
             selectEMP.innerHTML = "";
         }
@@ -82,7 +82,7 @@ empButton.addEventListener("click", () => {
 //EDUCACIÓN SEGÚN PAIS
 
 const edButton = document.getElementById("buttonED");
-edButton.addEventListener("click", () => {
+edButton.addEventListener("change", () => {
 
     document.getElementById("root").innerHTML = "";
     let countryIndicator = Object.values(dataCountry.indicators);
@@ -90,7 +90,7 @@ edButton.addEventListener("click", () => {
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectED.length!=0) {
+    if (selectED.length != 0) {
         for (let i = 0; i < selectED.length; i++) {
             selectED.innerHTML = "";
         }

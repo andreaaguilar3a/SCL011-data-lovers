@@ -1,33 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <title>Ejercicio Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
+
 <body>
+    <header>
+        <nav class="flex-row">
+            <div class="flex-column">
+                <a id="reload-from-logo"><img src="image/logo0-100x100.png" alt="World_Bank_logo" id="logo-banco-mundial"></a>
+            </div>
+            <div id="menu" class="flex-row">
+                <ul>
+                    <li><a href="#" title="" class="flex-row">HOME</a></li>
+                    <li><a href="#" title="" class="flex-row">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        <div id="logo">
-            <h1></h1>
+
+        <h1></h1>
+    </div>
+
+    <section id="choose-data">
+
+        <div class="parallax">
+
+
         </div>
 
         <div id="page" class="round">
 
-            <div id="header.image">
-                <img src="image/headerDATALATAM.jpg" alt="" class="round" />
-            </div>
 
-            <div id="menu" class="round">
-                <ul>
-                    <li><a href="#" title="" class="round active">HOME</a></li>
-                    <li><a href="#" title="" class="round">CONTACTO</a></li>
-                </ul>
-            </div>
+
             <div class="containerButton">
-                   <p>Selecciona un país para ver los datos</p>
+                <p>Selecciona un país para ver los datos</p>
                 <div class="button">
                     <button class="flag" value="CHL" label="Chile" id="buttonChl"></button>
                     <button class="flag" value="PER" label="Peru" id="buttonPer"></button>
@@ -36,10 +52,8 @@
                 </div>
 
                 <div class="buttonFilter">
-                    <button style="visibility:hidden" class="filter" value="EMP" label="Empleabilidad"
-                        id="buttonEMP">Empleabilidad</button>
-                    <button style="visibility:hidden" class="filter" value="ED" label="Educacion"
-                        id="buttonED">Educación</button>
+                    <button style="visibility:hidden" class="filter" value="EMP" label="Empleabilidad" id="buttonEMP">Empleabilidad</button>
+                    <button style="visibility:hidden" class="filter" value="ED" label="Educacion" id="buttonED">Educación</button>
                 </div>
 
                 <div class="selectFilter">
@@ -53,7 +67,27 @@
             </div>
 
         </div>
+        <!--Sección para el footer-->
+        <div id="footer" class="footer">
+            <p> Developed by: Andrea Aguilar y Veronica Soto- © Copy Left 2019. Organismo sin fines de lucro orientado a entregar datos laborales de mujeres en latinoamerica</p>
 
+            <div class="RRSS">
+                <div class="socialRedes">
+                    <a href="https://twitter.com/BancoMundial" target="_blank">
+                        <img src="image/twitter-square-brands.svg" alt="TwitterLogo" />
+                        <p>BancoMundial</p>
+                    </a>
+                </div>
+                <div class="socialRedes">
+                    <a href="https://www.facebook.com/bancomundial/" target="_blank">
+                        <img src="image/facebook-square-brands.svg" alt="FacebookLogo" />
+                        <p>bancomunidal</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
         <div id="root"></div>
         <!-- <script src="./data/injuries/injuries.js"></script> -->
         <!-- <script src="./data/pokemon/pokemon.js"></script> -->
@@ -65,14 +99,8 @@
         <script src="data.js"></script>
         <script src="main.js"></script>
 
-    </div>
-   
-</body>
-<div id="footer">
-    <p>Organismo sin fines de lucro creado en 2019 que esta
-        orientado a entregar datos de empleabilidad a emprendedoras
-        y microempresarias interesadas en dar trabajo a mujeres</p>
+        </div>
 
-</div>
+</body>
 
 </html>
