@@ -22,7 +22,7 @@ hacerlo es creando _interfaces_ y _visualizaciones_.
 # Diseño de la Interfaz de Usuario
 Proceso de diseño
 
-Para diseñar este producto tecnológico lo primero que se hizo fue estudiar la data ofrecida, se seleccionó la data del banco mundial,una vez seleccionada la data, se procedió a realizar un prototipo de baja fidelidad (ver imagen 1), donde se le mostró las pantallas (en lápiz y papel) de lo que se consideraban eran sus necesidades, aquí surgen las primeras historias de usuarios, que luego de una selección de acuerdo al alcance de la data surgen las historias de usuario finales.
+Para diseñar este producto tecnológico lo primero que se hizo fue estudiar la data ofrecida, se seleccionó la data del banco mundial,una vez seleccionada la data, se procedió a realizar un prototipo de baja fidelidad (realidad con lapiz y papel), donde se le mostró las pantallas de lo que se consideraban eran sus necesidades, aquí surgen las primeras nociones sobre los usuarios, una posible estructura de la información, que despues de algunas pruebas nos ayudaron a definir como sería la arquitectura de la informacion presente en la interfaz de DATA LATAM.
 
 ## El problema:
 
@@ -36,10 +36,20 @@ Esta página web le muestra al usuario información de valor sobre ciertos indic
 
 ### Decisiones de diseño:
 
-Una vez realizadas las enntrevistas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
+Una vez realizadas las entrevistas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
+
+
+### Definición: ¿Quién es nuestro usuario? 
+
+Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 45 años. Principalmente las relacionadas con intereses en negocios, economía, estudios sobre desigualdad laboral y de genero,por ello algunas de nuestras entrevistadas son empresarias, reclutadoras de personal , inversionistas y estudiantes de economía y negocios.
+
+### Conclusión:
+El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesionales en el área de Economía y Desarrollo Social, que deseen encontrar análisis, a través de resultados que no son cuantificables, de manera de detectar y comparar las necesidades en la Sociedad, contribuyendo así, en el diseño y aplicación de estadísticas, en materia de desarrollo social, especialmente aquellas destinadas a erradicar la desigualdad laboral/económica y brindar protección a las personas o grupos vulnerables, promoviendo la movilidad e integración.
+
+A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos, el objetivo final que se espera alcanzar es poder presentar los datos eficientemente e idealmente con herramientas visuales que faciliten el uso de la web y la informacion contenida en ella. 
 
 # Historias de usuario
-Entrevistamos a 5 personas, el resultado fue:
+considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). las entrevistas fueron grabadas en audio y dieron como resultado:
 
 ## Usuario Nº1
 Como empresaria y entusiasta en temas de género, quiero poder acceder a información por país, relacionada con indicadores de desarrollo asociados con las mujeres en América Latina, de los ámbitos: educativo, laboral y demográfico. Para poder tomar decisiones informadas sobre mis áreas de interés en la región.
@@ -55,23 +65,23 @@ Los resultados obtenidos son:
 
 ## Iteraciones
 Luego de varias iteraciones del control de flujo, feedback con nuestras compañeras y encuestas, llegamos a un flujo más sencillo. Donde basadas en las necesidades de nuestros usuarios se le permite filtrar al usuario por país, posteriormente seleccionar un indicador. y al final obtener una data que se muestra de manera gráfica y mediante cuadros de datos.
-![Segunda iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
+![Iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
 
 
 ## Prototipo de baja fidelidad
 
 A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
 
-![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_1.jpg?raw=true)
+![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Baja_Fidelidad_1.jpg?raw=true)
 
-![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_2.jpg?raw=true)
+![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Baja_Fidelidad_2.jpg?raw=true)
 
 
 ## Planificación y programación del desarrollo (Trello)
 
 Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
 
-[Trello Proyecto Social DataLatam](https://trello.com/b/w6VL7xVk/data-lovers-datalatam)
+[Trello Proyecto DataLatam](https://trello.com/b/w6VL7xVk/data-lovers-datalatam)
 
 ![Trello Social DataLatam](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Trello_Social_DataLatam.PNG?raw=true)
 
@@ -81,34 +91,70 @@ Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organiza
 Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable.
 El resultado del diseño en Figma fue:
 
+[FIGMA del proyecto DataLatam](https://www.figma.com/file/QTiRQiA5AOIPwisWJ4CW9e/DataLovers?node-id=0%3A1)
 
-![Alta fidelidad](https://www.figma.com/file/QTiRQiA5AOIPwisWJ4CW9e/DataLovers?node-id=0%3A1)
+<a href="https://ibb.co/Rj099bw"><img src="https://i.ibb.co/5K8664H/propotipo-AFP1.jpg" alt="Alta fidelidad página 1" border="0" /></a>
 
-![Alta fidelidad página 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP1?raw=true)
+<a href="https://ibb.co/hm9Mz0N"><img src="https://i.ibb.co/kSByCZT/prototopo-AFP2.jpg" alt="Alta fidelidad página 2" border="0" /></a>
 
-![Alta fidelidad página 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP2?raw=true)
 
-![Alta fidelidad página 3](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP3?raw=true)
-
+<a href="https://ibb.co/yNGmQt2"><img src="https://i.ibb.co/RgZGDf8/prototipo-AFP3.jpg" alt="Alta fidelidad página 3" border="0" /></a>
 
 ### Responsive para móvil
 
 
-![Alta fidelidad para movil](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFmovil?raw=true)
+<a href="https://ibb.co/zxW9qVq"><img src="https://i.ibb.co/LRDjVdV/prototipo-AFmovil.jpg" alt="prototipo Alta fidelidad para móvil" border="0" /></a>
 
 
 
-### Definición: ¿Quién es nuestro usuario? 
 
-Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 30 años. Principalmente las relacionadas con intereses en negocios, economía, estudios sobre desigualdad laboral y de genero,por ello algunas de nuestras entrevistadas son empresarias, reclutadoras de personal , inversionistas y estudiantes de economía y negocios.
+# Contenido de referencia
 
-### Conclusión:
-El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesionales en el área de Economía y Desarrollo Social, que deseen encontrar análisis, a través de resultados que no son cuantificables, de manera de detectar y comparar las necesidades en la Sociedad, contribuyendo así, en el diseño y aplicación de estadísticas, en materia de desarrollo social, especialmente aquellas destinadas a erradicar la desigualdad laboral/económica y brindar protección a las personas o grupos vulnerables, promoviendo la movilidad e integración.
-
-A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos. 
+Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes de información, las herramientas son descritas algunos puntos más abajo. En esta sección aprovecharemos de dejar linkeados las páginas de las cuales extraímos información relevante para el correcto desarrollo y desempeño de la página web Data Latam:
 
 
+## ¿Dónde buscar ilustraciones?
 
+- [Illustrations Gallery](https://gallery.manypixels.co/)
+
+- [Free vector illustrations - Ouch.pics](https://icons8.com/ouch/)
+
+- [unDraw | Colorful illustrations](https://undraw.co/illustrations)
+
+## Fuentes de información:
+
+### Recorrido de un objeto con for:
+
+- [for in en Javascript](https://desarrolloweb.com/articulos/recorridos-propiedades-objetos-javascript-forin.html)
+
+- [for...in](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...in)
+
+### Generar un select a partir del DOM
+
+- [HTML DOM Select Object](https://www.w3schools.com/jsref/dom_obj_select.asp)
+
+
+# Diseño de experiencia de usuario UX
+
+## Diseño
+
+El foco principal de la página se basado en las necesidades del usuario, por ello, para el diseño de esta surgen las interrogantes: ¿Qué información necesitan visualizar?, ¿Desea hacer comparaciones entre varios países, o ver la data de un país en específico?, ¿Desea ver valores máximo y promedio?.
+
+Debido a estas razones se crea una página simple y directa donde fácilmente el usuario pueda acceder a la data que busca.
+
+## Criterios de diseño:
+
+- Forma: Se mantuvo la homogeneidad en los botones, especificando que dato será utilizado, para que el usuario no tenga confusiones y pueda volver a las diferentes secciones.
+
+- Color de Tipografía: blanco, negro y colores oscuros asociados a la paleta de colores para que sea más legible la información.
+
+- Tipografía: Lato letras simples y sin serifa para que sean legibles. También se utilizó Sans serif, como recurso opcional.
+![Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
+
+- Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
+  La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
+
+  <a href="https://ibb.co/8XwSS6S"><img src="https://i.ibb.co/4JL55P5/Paleta-Colores-Data-Lovers.png" alt="Paleta de colores" border="0" /></a>
 
 ## **Índice**
 
