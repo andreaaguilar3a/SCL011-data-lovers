@@ -81,7 +81,7 @@ A partir de las iteraciones del flujo se procede a hacer sketch del prototipo pa
 
 Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organizamos con la herramienta Trello. Dividimos nuestras tareas por Historias de usario, y completamos los objetivos de nuestro desarrollo. Puedes revisar nuestro Trello en el siguiente Link:
 
-[Trello Proyecto Social DataLatam](https://trello.com/b/w6VL7xVk/data-lovers-datalatam)
+[Trello Proyecto DataLatam](https://trello.com/b/w6VL7xVk/data-lovers-datalatam)
 
 ![Trello Social DataLatam](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Trello_Social_DataLatam.PNG?raw=true)
 
@@ -91,10 +91,9 @@ Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organiza
 Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable.
 El resultado del diseño en Figma fue:
 
+[FIGMA del proyecto DataLatam](https://www.figma.com/file/QTiRQiA5AOIPwisWJ4CW9e/DataLovers?node-id=0%3A1)
 
 <a href="https://ibb.co/Rj099bw"><img src="https://i.ibb.co/5K8664H/propotipo-AFP1.jpg" alt="Alta fidelidad página 1" border="0" /></a>
-
-![Alta fidelidad página 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP2?raw=true)
 
 <a href="https://ibb.co/hm9Mz0N"><img src="https://i.ibb.co/kSByCZT/prototopo-AFP2.jpg" alt="Alta fidelidad página 2" border="0" /></a>
 
@@ -108,7 +107,6 @@ El resultado del diseño en Figma fue:
 
 
 
-#UX
 
 # Contenido de referencia
 
@@ -137,7 +135,7 @@ Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes
 - [HTML DOM Select Object](https://www.w3schools.com/jsref/dom_obj_select.asp)
 
 
-# Diseño de experiencia de usuario
+# Diseño de experiencia de usuario UX
 
 ## Diseño
 
