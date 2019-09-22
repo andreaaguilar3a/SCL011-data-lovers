@@ -55,16 +55,16 @@ Los resultados obtenidos son:
 
 ## Iteraciones
 Luego de varias iteraciones del control de flujo, feedback con nuestras compañeras y encuestas, llegamos a un flujo más sencillo. Donde basadas en las necesidades de nuestros usuarios se le permite filtrar al usuario por país, posteriormente seleccionar un indicador. y al final obtener una data que se muestra de manera gráfica y mediante cuadros de datos.
-![Segunda iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
+![Iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
 
 
 ## Prototipo de baja fidelidad
 
 A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
 
-![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_1.jpg?raw=true)
+![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Baja_Fidelidad_1.jpg?raw=true)
 
-![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/images/Baja_Fidelidad_2.jpg?raw=true)
+![Baja Fidelidad pantalla 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Baja_Fidelidad_2.jpg?raw=true)
 
 
 ## Planificación y programación del desarrollo (Trello)
@@ -86,8 +86,12 @@ El resultado del diseño en Figma fue:
 
 ![Alta fidelidad página 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP1?raw=true)
 
+![Alta fidelidad página 1](https://raw.githubusercontent.com//veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP1?raw=true)
+
+
 ![Alta fidelidad página 2](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP2?raw=true)
 
+<a href="https://ibb.co/hm9Mz0N"><img src="https://i.ibb.co/kSByCZT/prototopo-AFP2.jpg" alt="Alta fidelidad página 2" border="0" /></a>
 ![Alta fidelidad página 3](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/prototipoAFP3?raw=true)
 
 
