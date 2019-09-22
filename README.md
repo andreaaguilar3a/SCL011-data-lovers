@@ -46,7 +46,7 @@ Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 45 años. Prin
 ### Conclusión:
 El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesionales en el área de Economía y Desarrollo Social, que deseen encontrar análisis, a través de resultados que no son cuantificables, de manera de detectar y comparar las necesidades en la Sociedad, contribuyendo así, en el diseño y aplicación de estadísticas, en materia de desarrollo social, especialmente aquellas destinadas a erradicar la desigualdad laboral/económica y brindar protección a las personas o grupos vulnerables, promoviendo la movilidad e integración.
 
-A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos. 
+A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos, el objetivo final que se espera alcanzar es poder presentar los datos eficientemente e idealmente con herramientas visuales que faciliten el uso de la web y la informacion contenida en ella. 
 
 # Historias de usuario
 considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). las entrevistas fueron grabadas en audio y dieron como resultado:
@@ -155,6 +155,7 @@ Debido a estas razones se crea una página simple y directa donde fácilmente el
 
 - Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
   La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
+
   <a href="https://ibb.co/8XwSS6S"><img src="https://i.ibb.co/4JL55P5/Paleta-Colores-Data-Lovers.png" alt="Paleta de colores" border="0" /></a>
 
 ## **Índice**
