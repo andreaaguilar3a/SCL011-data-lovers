@@ -36722,4 +36722,4 @@ const WORLDBANK = {
 }
 ;;
 
-window.WORLDBANK = WORLDBANK 
+window.WORLDBANK = WORLDBANK;
