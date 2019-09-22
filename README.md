@@ -112,7 +112,6 @@ El resultado del diseño en Figma fue:
 
 Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes de información, las herramientas son descritas algunos puntos más abajo. En esta sección aprovecharemos de dejar linkeados las páginas de las cuales extraímos información relevante para el correcto desarrollo y desempeño de la página web Data Latam:
 
-- [Google Fonts - Lato]("https://fonts.googleapis.com/css?family=Lato&display=swap")
 
 ## ¿Dónde buscar ilustraciones?
 
@@ -150,6 +149,7 @@ Debido a estas razones se crea una página simple y directa donde fácilmente el
 - Color de Tipografía: blanco, negro y colores oscuros asociados a la paleta de colores para que sea más legible la información.
 
 - Tipografía: Lato letras simples y sin serifa para que sean legibles. También se utilizó Sans serif, como recurso opcional.
+![Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
 
 - Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
   La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
