@@ -126,6 +126,17 @@ Tras las modificaciones el resultado final del diseño en Figma fue:
 
 <a href="https://ibb.co/zxW9qVq"><img src="https://i.ibb.co/LRDjVdV/prototipo-AFmovil.jpg" alt="prototipo Alta fidelidad para móvil" border="0" /></a>
 
+# Testeos de usabilidad
+
+Luego de elaborar el prototipo en figma se testeo, la iteracion del modelo final con la corrección de los colores y otras mejoras, asociadas a las entrevistas anteriores, donde se trato de mejorar todas observaciones realizadas por nuestras usuarias, en las primeras iteraciones. Para los testeos de usabilidad,decidimos utilizar Loom. Teniendo particular atención en recalcar al voluntario que en ningún momento estaban siendo a puestos a prueba ellos, sino el sistema. Por razones de tiempo sólo alcanzamos a realizar un testeos, sin embargo pudimos notar un par de errores los cuales fueron:
+
+- El usuario ignoró los links ubicados en el menú, además tuvo algunas dudas respecto a como regresar atrás. 
+- Los botones de los países al no llevar indicado a que país corresponden resultaron un poco confusos para la voluntaria.
+- Otro usuario no alcanzó a notar por su cuenta que los indicadores se encontraban ordenado de la A - Z. 
+
+
+Los links para las entrevistas son:
+[Test de usabilidad en loom](https://www.loom.com/share/8513c50b5fda44e6a0241cfce8e80df1)
 
 
 # Contenido de referencia
