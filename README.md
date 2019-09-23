@@ -49,9 +49,12 @@ El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesi
 A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos, el objetivo final que se espera alcanzar es poder presentar los datos eficientemente e idealmente con herramientas visuales que faciliten el uso de la web y la informacion contenida en ella. 
 
 # Historias de usuario
-considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). las entrevistas fueron grabadas en audio y dieron como resultado:
+considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). Las entrevistas fueron grabadas en [audio] (https://mail.google.com/mail/u/0/#inbox/FMfcgxwDrRRXNtmGJCJnsWXpWvDcngbd) y dieron como resultado:
 
-## Usuario Nº1
+### Entrevista 1:
+Wendy Mejia Salgado, 34 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes.
+
+## HU Nº1 (historia de usuario)
 Como empresaria y entusiasta en temas de género, quiero poder acceder a información por país, relacionada con indicadores de desarrollo asociados con las mujeres en América Latina, de los ámbitos: educativo, laboral y demográfico. Para poder tomar decisiones informadas sobre mis áreas de interés en la región.
 
 
@@ -113,21 +116,24 @@ El resultado del diseño en Figma fue:
 Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes de información, las herramientas son descritas algunos puntos más abajo. En esta sección aprovecharemos de dejar linkeados las páginas de las cuales extraímos información relevante para el correcto desarrollo y desempeño de la página web Data Latam:
 
 
-## ¿Dónde buscar ilustraciones?
+## ¿Dónde buscar imagenes y generar logo?
 
-- [Illustrations Gallery](https://gallery.manypixels.co/)
+- [Free logo Desing] (https://es.freelogodesign.org)
 
-- [Free vector illustrations - Ouch.pics](https://icons8.com/ouch/)
+- [Shutterstock](https://www.shutterstock.com)
 
-- [unDraw | Colorful illustrations](https://undraw.co/illustrations)
+- [Freepik](https://www.freepik.es/)
+
+
 
 ## Fuentes de información:
 
 ### Recorrido de un objeto con for:
 
+- [for...in](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...in)
+
 - [for in en Javascript](https://desarrolloweb.com/articulos/recorridos-propiedades-objetos-javascript-forin.html)
 
-- [for...in](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...in)
 
 ### Generar un select a partir del DOM
 
@@ -149,7 +155,8 @@ Debido a estas razones se crea una página simple y directa donde fácilmente el
 - Color de Tipografía: blanco, negro y colores oscuros asociados a la paleta de colores para que sea más legible la información.
 
 - Tipografía: Lato letras simples y sin serifa para que sean legibles. También se utilizó Sans serif, como recurso opcional.
-![Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
+
+[Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
 
 - Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
   La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
