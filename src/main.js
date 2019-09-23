@@ -53,18 +53,18 @@ const empButton = document.getElementById("buttonEMP");
 empButton.addEventListener("click", () => {
 
     document.getElementById("root").innerHTML = "";
-    let countryIndicator = Object.values(dataCountry.indicators);
+    let country = Object.values(dataCountry.indicators);
     let arrayCountry = [];
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectEMP.length != 0) {
+    if (selectEMP.length!=0) {
         for (let i = 0; i < selectEMP.length; i++) {
             selectEMP.innerHTML = "";
         }
     }
 
-    for (let i = 0; i < countryIndicator.length; i++) {
+    for (let i = 0; i < country.length; i++) {
         //El array va guardando lo que retorne el filtro de empleabilidad
         arrayCountry[i] = filterEMP(dataCountry, i);
         //Si el filtro retorna datos entonces añade la opción al select
@@ -82,21 +82,21 @@ empButton.addEventListener("click", () => {
 //EDUCACIÓN SEGÚN PAIS
 
 const edButton = document.getElementById("buttonED");
-edButton.addEventListener("change", () => {
+edButton.addEventListener("click", () => {
 
     document.getElementById("root").innerHTML = "";
-    let countryIndicator = Object.values(dataCountry.indicators);
+    let country = Object.values(dataCountry.indicators);
     let arrayCountry = [];
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectED.length != 0) {
+    if (selectED.length!=0) {
         for (let i = 0; i < selectED.length; i++) {
             selectED.innerHTML = "";
         }
     }
 
-    for (let i = 0; i < countryIndicator.length; i++) {
+    for (let i = 0; i < country.length; i++) {
         //El array va guardando lo que retorne el filtro de educación
         arrayCountry[i] = filterED(dataCountry, i);
         //Si el filtro retorna datos entonces añade la opción al select

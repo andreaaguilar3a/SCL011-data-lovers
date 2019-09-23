@@ -1,28 +1,15 @@
 global.window = global;
 global.assert = require('chai').assert;
-require('../src/data');
+require('../src/data.js');
 require('./data.spec.js');
 
-describe("window.worldBank", () => {
+describe("window.WORLBANK", () => {
     it("debería ser un objeto", () => {
-        assert.equal(typeof window.worldBank, "object");
+        assert.equal(typeof window.WORLDBANK, "object");
     });
 });
 
-describe("window.worldBank.filterCountry", () => {
-    const muestra = {
-        PER: { indicators: "Array(139)" },
-        MEX: { indicators: "Array(139)" }
-    };
-    it("debería ser una función", () => {
-        assert.equal(typeof window.worldBank.filterCountry, "function");
-    });
-
-    it('debería retornar el objeto "PER"', () => {
-        assert.deepEqual(
-            window.worldBank.filterCountry(muestra, {
-                PER: { indicators: "Array(139)" }
-            })
-        );
-    });
+it("debería ser una función", () => {
+    assert.equal(typeof window.FilterEMP, "function");
 });
+

@@ -1,6 +1,18 @@
 # **Data Lovers**
+## **Índice**
 
+* [Definición](#Definición-del-Proyecto-DATA-LATAM)
+* [Descripción del Producto](#definicion-del-producto)
+* [Diseño Interfaz de Usuario](#diseño-interfaz-de-usuario)
+* [Nuestro Usuario](#nuestro-usuario)
+* [Historias de Usuario](#historias-de-usuario)
+* [Prototipo de Baja Fidelidad](#prototipo-de-baja-fidelidad)
+* [Prototipo de Alta Fidelidad](#prototipo-de-alta-fidelidad)
+* [Diseño de experiencia de usuario UX](#diseño-de-experiencia-de-usuario-ux)
+* [Contenido de referencia](#contenido-de-referencia)
+* [Checklist](#checklist)
 
+***
 
 # Definición del Proyecto DATA LATAM 
 
@@ -22,7 +34,7 @@ hacerlo es creando _interfaces_ y _visualizaciones_.
 
 <a href="https://ibb.co/q1rx2p3"><img src="https://i.ibb.co/JksCSHw/Nuevo-Prototipo-Final-3.jpg" alt="Nuevo-Prototipo-Final-3" border="0" /></a>
 
-# Diseño de la Interfaz de Usuario
+# Diseño de Interfaz de Usuario
 Proceso de diseño
 
 Para diseñar este producto tecnológico lo primero que se hizo fue estudiar la data ofrecida, se seleccionó la data del banco mundial,una vez seleccionada la data, se procedió a realizar un prototipo de baja fidelidad (realidad con lapiz y papel), donde se le mostró las pantallas de lo que se consideraban eran sus necesidades, aquí surgen las primeras nociones sobre los usuarios, una posible estructura de la información, que despues de algunas pruebas nos ayudaron a definir como sería la arquitectura de la informacion presente en la interfaz de DATA LATAM.
@@ -42,7 +54,7 @@ Esta página web le muestra al usuario información de valor sobre ciertos indic
 Una vez realizadas las entrevistas y analizados los resultados, tomamos decisiones de diseño acorde a las necesidades de los usuarios.
 
 
-### Definición: ¿Quién es nuestro usuario? 
+# Nuestro Usuario 
 
 Nuestro usuario son en su mayoría mujeres, de entre 25 y más de 45 años. Principalmente las relacionadas con intereses en negocios, economía, estudios sobre desigualdad laboral y de genero,por ello algunas de nuestras entrevistadas son empresarias, reclutadoras de personal , inversionistas y estudiantes de economía y negocios.
 
@@ -51,6 +63,7 @@ El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesi
 
 A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos, el objetivo final que se espera alcanzar es poder presentar los datos eficientemente e idealmente con herramientas visuales que faciliten el uso de la web y la informacion contenida en ella. 
 
+<<<<<<< HEAD
 # Historias de usuario
 considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). Las entrevistas fueron grabadas en [audio] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) y dieron como resultado:
 
@@ -60,6 +73,10 @@ Andrea Martin, 33 años, seleccionadora de personal, trabaja en emprendedoras Ch
 
 ### Entrevista 2
 Macarena Silva, 30 años, ingeniera comercial (Business Administrator), y gerente comercial de metlife a cargo de las cuentas en Chile. Durante la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d), se identificaron problemas continuos con el botón volver, además el usuario recomendó mejorar el diseño (usar solo las banderas como botón sin bordes, usar fotos, modificar los colores y la distribución de los datos), dado el tipo de datos el usuario tiende a agrandar la imagen en la pantalla y rota el móvil, por lo tanto, hay que considerar este punto para el responsive. Persiste el problema para regresar o seleccionar nuevos datos en otros botones y select, lo ideal es que los países tengan su propia página o algo que recuerde al usuario que datos esta observando.
+=======
+# Historias de Usuario
+considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). las entrevistas fueron grabadas en audio y dieron como resultado:
+>>>>>>> 511ef15003d3c5dc4d7077aff08f4a4a4cee18c7
 
 ### Entrevista 3
 Wendy Mejia Salgado, 38 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes. Para esta iteración ya se aplicó la modificación en los tonos usados, y el usuario no tuvo reacciones negativas con los nuevos colores.
@@ -81,7 +98,7 @@ Luego de varias iteraciones del control de flujo, feedback con nuestras compañe
 ![Iteración del flujo](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/controldeflujo1.jpg?raw=true)
 
 
-## Prototipo de baja fidelidad
+# Prototipo de baja fidelidad
 
 A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario. 
 
@@ -99,7 +116,7 @@ Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organiza
 ![Trello Social DataLatam](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Trello_Social_DataLatam.PNG?raw=true)
 
 
-## Prototipo de alta fidelidad
+# Prototipo de alta fidelidad
 
 Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable. Originalmente se planteó el uso de tonos rosados en la página, no obstante, luego de probar las tonalidades clásicas para productos orientados a mujeres, descartamos esa opción, ya que nuestros usuarios lo consideran un estereotipo.
 Tras las modificaciones el resultado final del diseño en Figma fue:
@@ -119,10 +136,9 @@ Tras las modificaciones el resultado final del diseño en Figma fue:
 <a href="https://ibb.co/zxW9qVq"><img src="https://i.ibb.co/LRDjVdV/prototipo-AFmovil.jpg" alt="prototipo Alta fidelidad para móvil" border="0" /></a>
 
 
-
-
 # Contenido de referencia
 
+<<<<<<< HEAD
 Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes de información, las herramientas son descritas algunos puntos más abajo. En esta sección aprovecharemos de dejar linkeados las páginas de las cuales extraímos información relevante para el correcto desarrollo y desempeño de la página web Data Latam:
 
 
@@ -144,10 +160,18 @@ Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes
 
 - [select dinámico](https://stackoverflow.com/questions/17730621/how-to-dynamically-add-options-to-an-existing-select-in-vanilla-javascript)
 
+=======
+Para la elaboración del proyecto se utilizaron diferentes herramientas y fuentes de información, algunas herramientas son descritas algunos puntos más abajo. En esta sección aprovecharemos de dejar linkeados las páginas de las cuales extraímos información relevante para el correcto desarrollo y desempeño de la página web Data Latam:
+>>>>>>> 511ef15003d3c5dc4d7077aff08f4a4a4cee18c7
 
 ### Generar un select a partir del DOM
 
 - [HTML DOM Select Object](https://www.w3schools.com/jsref/dom_obj_select.asp)
+
+### Uso de Parallax en CSS
+
+- [Parallax Scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp)
+
 ### Uso de Parallax en CSS
 
 - [Parallax Scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp)
@@ -171,13 +195,13 @@ Debido a estas razones se crea una página simple y directa donde fácilmente el
 
 [Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
 
-- Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
-  La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
+- Color: La paleta de color inicial se baso en colores claros en la gama del azul-celeste que reflejan transparencia, asociados al concepto institucional (propio del banco mundial). Luego en la etapa de rediseño se optó por una paleta de colores en un tono mas oscuro,azul-verde, con la intención de que no llame tanto la atención del usuario si no que le permita centrarse en el contenido.
 
 ### Paleta de colores inicial: se uso para el prototipo de alta fidelidad
 
   <a href="https://ibb.co/8XwSS6S"><img src="https://i.ibb.co/4JL55P5/Paleta-Colores-Data-Lovers.png" alt="Paleta de colores" border="0" /></a>
 
+<<<<<<< HEAD
   ### Paleta de colores final: colores aplicados en el diseño final de la web
 
 <a href="https://ibb.co/hWRTXHX"><img src="https://i.ibb.co/LtzsQ6Q/Paleta-Colores-Final.jpg" alt="Paleta-Colores-Final" border="0" /></a>
@@ -692,6 +716,8 @@ compañera:
 
 ***
 
+=======
+>>>>>>> 511ef15003d3c5dc4d7077aff08f4a4a4cee18c7
 ## **Checklist**
 
 * [ ] Usa VanillaJS.
