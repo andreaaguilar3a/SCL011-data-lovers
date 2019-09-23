@@ -53,6 +53,7 @@ considerando el tipo de datos y los usuarios a los que va dirigida la web, se de
 
 ### Entrevista 1:
 Wendy Mejia Salgado, 34 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes.
+### Entrevista 2:
 
 ## HU Nº1 (historia de usuario)
 Como empresaria y entusiasta en temas de género, quiero poder acceder a información por país, relacionada con indicadores de desarrollo asociados con las mujeres en América Latina, de los ámbitos: educativo, laboral y demográfico. Para poder tomar decisiones informadas sobre mis áreas de interés en la región.
