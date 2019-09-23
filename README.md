@@ -33,6 +33,10 @@ No obstante, los datos por sí mismos son de poca utilidad. Para que esas grande
 **DATA LATAM** es una herramienta de análisis que contiene colecciones de indicadores del desarrollo del Banco Mundial, compilados a partir de fuentes internacionales reconocidas oficialmente. Una manera simple de
 hacerlo es creando _interfaces_ y _visualizaciones_.
 
+<a href="https://ibb.co/jbknj4j"><img src="https://i.ibb.co/wBh5262/Nuevo-Prototipo-Final-1.jpg" alt="Nuevo-Prototipo-Final-1" border="0" /></a>
+
+<a href="https://ibb.co/q1rx2p3"><img src="https://i.ibb.co/JksCSHw/Nuevo-Prototipo-Final-3.jpg" alt="Nuevo-Prototipo-Final-3" border="0" /></a>
+
 
 
 # Diseño de la Interfaz de Usuario
@@ -66,6 +70,14 @@ A la hora de representar los resultados de un análisis estadístico de un modo 
 # Historias de usuario
 considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). Las entrevistas fueron grabadas en [audio] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) y dieron como resultado:
 
+### Entrevista 1
+Andrea Martin, 33 años, seleccionadora de personal, trabaja en emprendedoras Chile (con startup y pequeñas empresarias). En la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se detectó que los botones le resultaron toscos, además le costó identificar como regresar para poder seleccionar otra opción, hay que mejorar la descripción y forma de los botones. Le gustó que el métod para acceder a la data fuera por medio de los países, pero le gustaría instrucciones o una presentación en el inicio (explícito, no solo en el menu). hay que modificar la propuesta tradicional en la paleta de colores, hubo rechazo evidente a los tonos rosados y otros afines a este.
+
+### Entrevista 2
+Macarena Silva, 30 años, ingeniera comercial (Business Administrator), y gerente comercial de metlife a cargo de las cuentas en Chile. Durante la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d), se identificaron problemas continuos con el botón volver, además el usuario recomendó mejorar el diseño (usar solo las banderas como botón sin bordes, usar fotos, modificar los colores y la distribución de los datos), dado el tipo de datos el usuario tiende a agrandar la imagen en la pantalla y rota el móvil, por lo tanto, hay que considerar este punto para el responsive. Persiste el problema para regresar o seleccionar nuevos datos en otros botones y select, lo ideal es que los países tengan su propia página o algo que recuerde al usuario que datos esta observando.
+
+### Entrevista 3
+Wendy Mejia Salgado, 38 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes. Para esta iteración ya se aplicó la modificación en los tonos usados, y el usuario no tuvo reacciones negativas con los nuevos colores.
 
 
 ## HU Nº1 (historia de usuario)
@@ -128,7 +140,58 @@ Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes
 
 El foco principal de la página se basado en las necesidades del usuario, por ello, para el diseño de esta surgen las interrogantes: ¿Qué información necesitan visualizar?, ¿Desea hacer comparaciones entre varios países, o ver la data de un país en específico?, ¿Desea ver valores máximo y promedio?.
 
-Debido a estas razones se crea una página simple y directa donde fácilmente el usuario pueda acceder a la data que busca.
+Debido a estas razones se crea una página directa y simple donde el usuario pueda acceder a la data que busca sin dificultad.
+
+## ¿Dónde buscar imagenes y generar logo?
+
+- [Free logo Desing] (https://es.freelogodesign.org)
+
+- [Shutterstock](https://www.shutterstock.com)
+
+- [Freepik](https://www.freepik.es/)
+
+## Fuentes de información:
+
+### Recorrido de un objeto y trabajarlo como Array:
+
+- [Object.values](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/values)
+
+- [Select dinámico](https://stackoverflow.com/questions/17730621/how-to-dynamically-add-options-to-an-existing-select-in-vanilla-javascript)
+
+- [Style visibility Property](https://www.w3schools.com/jsref/prop_style_visibility.asp)
+
+### Generar un select a partir del DOM
+
+- [HTML DOM Select Object](https://www.w3schools.com/jsref/dom_obj_select.asp)
+
+### Uso de Parallax en CSS
+
+- [Parallax Scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp)
+
+
+
+## Criterios de diseño:
+
+- Forma: Se mantuvo la homogeneidad en los botones, especificando que dato será utilizado, para que el usuario no tenga confusiones y pueda volver a las diferentes secciones.
+
+- Color de Tipografía: blanco, negro y colores oscuros asociados a la paleta de colores para que sea más legible la información.
+
+- Tipografía: Lato letras simples y sin serifa para que sean legibles. También se utilizó Sans serif, como recurso opcional.
+
+[Google Fonts - Lato](https://fonts.google.com/specimen/Lato)
+
+- Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
+La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
+
+### Paleta de colores inicial: se uso para el prototipo de alta fidelidad
+
+<a href="https://ibb.co/8XwSS6S"><img src="https://i.ibb.co/4JL55P5/Paleta-Colores-Data-Lovers.png" alt="Paleta de colores" border="0" /></a>
+
+### Paleta de colores final: colores aplicados en el diseño final de la web
+
+<a href="https://ibb.co/hWRTXHX"><img src="https://i.ibb.co/LtzsQ6Q/Paleta-Colores-Final.jpg" alt="Paleta-Colores-Final" border="0" /></a>
+
+
 
 ## **Checklist**
 
