@@ -18,6 +18,9 @@ No obstante, los datos por sí mismos son de poca utilidad. Para que esas grande
 **DATA LATAM** es una herramienta de análisis que contiene colecciones de indicadores del desarrollo del Banco Mundial, compilados a partir de fuentes internacionales reconocidas oficialmente. Una manera simple de
 hacerlo es creando _interfaces_ y _visualizaciones_.
 
+<a href="https://ibb.co/jbknj4j"><img src="https://i.ibb.co/wBh5262/Nuevo-Prototipo-Final-1.jpg" alt="Nuevo-Prototipo-Final-1" border="0" /></a>
+
+<a href="https://ibb.co/q1rx2p3"><img src="https://i.ibb.co/JksCSHw/Nuevo-Prototipo-Final-3.jpg" alt="Nuevo-Prototipo-Final-3" border="0" /></a>
 
 # Diseño de la Interfaz de Usuario
 Proceso de diseño
@@ -49,11 +52,17 @@ El sitio debe estar dirigido especialmente para ciudadanos comunes, y/ó profesi
 A la hora de representar los resultados de un análisis estadístico de un modo adecuado,se suele recomendar que la presentación de datos numéricos se haga habitualmente por medio de tablas, en ocasiones un diagrama o un gráfico pueden ayudarnos a representar de un modo más eficiente nuestros datos, el objetivo final que se espera alcanzar es poder presentar los datos eficientemente e idealmente con herramientas visuales que faciliten el uso de la web y la informacion contenida en ella. 
 
 # Historias de usuario
-considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). Las entrevistas fueron grabadas en [audio] (https://mail.google.com/mail/u/0/#inbox/FMfcgxwDrRRXNtmGJCJnsWXpWvDcngbd) y dieron como resultado:
+considerando el tipo de datos y los usuarios a los que va dirigida la web, se decidio realizar entrevistas, en lugar de una encuesta (ya que las muestras no serían significativas, de no ser una encuesta quealizada a más de 50 personas). Las entrevistas fueron grabadas en [audio] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) y dieron como resultado:
 
-### Entrevista 1:
-Wendy Mejia Salgado, 34 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes.
-### Entrevista 2:
+
+### Entrevista 1
+Andrea Martin, 33 años, seleccionadora de personal, trabaja en emprendedoras Chile (con startup y pequeñas empresarias). En la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se detectó que los botones le resultaron toscos, además le costó identificar como regresar para poder seleccionar otra opción, hay que mejorar la descripción y forma de los botones. Le gustó que el métod para acceder a la data fuera por medio de los países, pero le gustaría instrucciones o una presentación en el inicio (explícito, no solo en el menu). hay que modificar la propuesta tradicional en la paleta de colores, hubo rechazo evidente a los tonos rosados y otros afines a este.
+
+### Entrevista 2
+Macarena Silva, 30 años, ingeniera comercial (Business Administrator), y gerente comercial de metlife a cargo de las cuentas en Chile. Durante la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d), se identificaron problemas continuos con el botón volver, además el usuario recomendó mejorar el diseño (usar solo las banderas como botón sin bordes, usar fotos, modificar los colores y la distribución de los datos), dado el tipo de datos el usuario tiende a agrandar la imagen en la pantalla y rota el móvil, por lo tanto, hay que considerar este punto para el responsive. Persiste el problema para regresar o seleccionar nuevos datos en otros botones y select, lo ideal es que los países tengan su propia página o algo que recuerde al usuario que datos esta observando.
+
+### Entrevista 3
+Wendy Mejia Salgado, 38 años, inversionista hondureña (exporta café a Chile).De la [entrevista] (https://drive.google.com/drive/folders/19aJj-au9gUXACBQQJtINC4VCKYfGLu5d) se obtuvieron algunas observaciones, respecto a la ubicación de algunos botones (por ejemplo, volver), también hay que realizar una introducción del sitio, ya que el prototipo actual no es lo suficientemente claro, sobre los objetivos y en la explicacion de para que es la web (aun en presencia de botones en el menú que explica), debe ser más directo o ubicarse al inicio de la página. Se comprobó que la distribución de los datos por país, es un buen filtro y el select resulta intuitivo, pero aun es muy extenso, por ello, hay que acotar la información solo a mujeres o probar nuevos filtros (educacion, edad, años, etc), para que los parámetros de búsqueda sean eficientes. Para esta iteración ya se aplicó la modificación en los tonos usados, y el usuario no tuvo reacciones negativas con los nuevos colores.
 
 ## HU Nº1 (historia de usuario)
 Como empresaria y entusiasta en temas de género, quiero poder acceder a información por país, relacionada con indicadores de desarrollo asociados con las mujeres en América Latina, de los ámbitos: educativo, laboral y demográfico. Para poder tomar decisiones informadas sobre mis áreas de interés en la región.
@@ -74,7 +83,7 @@ Luego de varias iteraciones del control de flujo, feedback con nuestras compañe
 
 ## Prototipo de baja fidelidad
 
-A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario.
+A partir de las iteraciones del flujo se procede a hacer sketch del prototipo para mostrar los resultados. Procurando en todo momento mantener una estética simple, minimalista y amigable para el usuario. 
 
 ![Baja Fidelidad pantalla 1](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Baja_Fidelidad_1.jpg?raw=true)
 
@@ -92,8 +101,8 @@ Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organiza
 
 ## Prototipo de alta fidelidad
 
-Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable.
-El resultado del diseño en Figma fue:
+Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable. Originalmente se planteó el uso de tonos rosados en la página, no obstante, luego de probar las tonalidades clásicas para productos orientados a mujeres, descartamos esa opción, ya que nuestros usuarios lo consideran un estereotipo.
+Tras las modificaciones el resultado final del diseño en Figma fue:
 
 [FIGMA del proyecto DataLatam](https://www.figma.com/file/QTiRQiA5AOIPwisWJ4CW9e/DataLovers?node-id=0%3A1)
 
@@ -129,16 +138,19 @@ Para la elaboración del proyecto se utilizaron diferente herramientas y fuentes
 
 ## Fuentes de información:
 
-### Recorrido de un objeto con for:
+### Recorrido de un objeto y trabajarlo como Array:
 
-- [for...in](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...in)
+- [Object.values](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/values)
 
-- [for in en Javascript](https://desarrolloweb.com/articulos/recorridos-propiedades-objetos-javascript-forin.html)
+- [select dinámico](https://stackoverflow.com/questions/17730621/how-to-dynamically-add-options-to-an-existing-select-in-vanilla-javascript)
 
 
 ### Generar un select a partir del DOM
 
 - [HTML DOM Select Object](https://www.w3schools.com/jsref/dom_obj_select.asp)
+### Uso de Parallax en CSS
+
+- [Parallax Scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
 
 # Diseño de experiencia de usuario UX
@@ -162,7 +174,13 @@ Debido a estas razones se crea una página simple y directa donde fácilmente el
 - Color: La página esta hecha con colores agradables, asociados al concepto institucional (propio del banco mundial) para llamar la atención del usuario y pueda mantenerse en la página el tiempo que estime necesario sin agotar la vista.
   La página esta en base al azul claro, medio y oscuro, con tonos verdes, son colores similares para mantener la harmonía dentro del diseño de la página: 
 
+### Paleta de colores inicial: se uso para el prototipo de alta fidelidad
+
   <a href="https://ibb.co/8XwSS6S"><img src="https://i.ibb.co/4JL55P5/Paleta-Colores-Data-Lovers.png" alt="Paleta de colores" border="0" /></a>
+
+  ### Paleta de colores final: colores aplicados en el diseño final de la web
+
+<a href="https://ibb.co/hWRTXHX"><img src="https://i.ibb.co/LtzsQ6Q/Paleta-Colores-Final.jpg" alt="Paleta-Colores-Final" border="0" /></a>
 
 ## **Índice**
 
