@@ -106,7 +106,7 @@ Para poder organizarnos y lograr los objetivos de nuestro proyecto, nos organiza
 
 ![Trello Social DataLatam](https://github.com/veronicasotobastidas/SCL011-data-lovers/blob/gh-pages/src/image/Trello_Social_DataLatam.PNG?raw=true)
 
-## Prototipo de alta fidelidad
+## Prototipo de alta fidelidad  
 
 Al finalizar con el diseño del prototipo de baja fidelidad, se procede a realizar el diseño en una aplicación más confiable e incorporando los elemento de diseño que ayuden al usuario a lograr el fin de la página: mostrar los datos de manera gráfica más amigable. Originalmente se planteó el uso de tonos rosados en la página, no obstante, luego de probar las tonalidades clásicas para productos orientados a mujeres, descartamos esa opción, ya que nuestros usuarios lo consideran un estereotipo.
 Tras las modificaciones el resultado final del diseño en Figma fue:
