@@ -1,3 +1,5 @@
+window.WORLDBANK
+
 //Filtro para pempleabilidad, recibe la data del país seleccionado
 const filterEMP = (data, i) => {
    let dataCountry = Object.values(data.indicators);
