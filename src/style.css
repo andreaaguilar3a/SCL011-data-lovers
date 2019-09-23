@@ -20,12 +20,12 @@ header {
     display: flex;
     flex-direction: row;
     align-content: center;
-    padding: 15px;
     background-color: #f5fffe;
     opacity: 0.6;
     width:400px;
     height:250px;
     border-radius: 15px;
+    padding: 15px;
     margin: 8%;
     margin-left: 35%;
     font-size: 18px;

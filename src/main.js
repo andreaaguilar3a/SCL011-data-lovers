@@ -58,7 +58,7 @@ empButton.addEventListener("click", () => {
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectEMP.length != 0) {
+    if (selectEMP.length!=0) {
         for (let i = 0; i < selectEMP.length; i++) {
             selectEMP.innerHTML = "";
         }
@@ -66,10 +66,10 @@ empButton.addEventListener("click", () => {
 
     for (let i = 0; i < country.length; i++) {
         //El array va guardando lo que retorne el filtro de empleabilidad
-        arrayCountry[i] = filterEMP(dataCountry, i);
+        arrayCountry[i] = window.wBank.filterEMP(dataCountry, i);
         //Si el filtro retorna datos entonces añade la opción al select
         //Esto es para evitar que deje espacios vacíos en el select y solo muestre los datos filtrados
-        if (filterEMP(dataCountry, i)) {
+        if (window.wBank.filterEMP(dataCountry, i)) {
             selectEMP.options[selectEMP.options.length] = new Option(arrayCountry[i], i);
         }
     }
@@ -79,7 +79,7 @@ empButton.addEventListener("click", () => {
     selectED.style.visibility = "hidden";
 });
 
-//EDUCACIÓN SEGÚN PAIS A ELECCION
+//EDUCACIÓN SEGÚN PAIS
 
 const edButton = document.getElementById("buttonED");
 edButton.addEventListener("click", () => {
@@ -90,7 +90,7 @@ edButton.addEventListener("click", () => {
 
     //Verifica que el select no esté vacío, si no lo está borrará las opciones
     //Así evitará que al presionar dos veces el botón se dupliquen las opciones
-    if (selectED.length != 0) {
+    if (selectED.length!=0) {
         for (let i = 0; i < selectED.length; i++) {
             selectED.innerHTML = "";
         }
@@ -98,10 +98,10 @@ edButton.addEventListener("click", () => {
 
     for (let i = 0; i < country.length; i++) {
         //El array va guardando lo que retorne el filtro de educación
-        arrayCountry[i] = filterED(dataCountry, i);
+        arrayCountry[i] = window.wBank.filterED(dataCountry, i);
         //Si el filtro retorna datos entonces añade la opción al select
         //Esto es para evitar que deje espacios vacíos en el select y solo muestre los datos filtrados
-        if (filterED(dataCountry, i)) {
+        if (window.wBank.filterED(dataCountry, i)) {
             selectED.options[selectED.options.length] = new Option(arrayCountry[i], i);
         }
     }
